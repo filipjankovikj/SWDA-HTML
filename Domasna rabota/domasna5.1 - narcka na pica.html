@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Нарачка на пица</title>
+    </head>
+    <body>
+        <img src="https://www.cumberlandfarms.com/media/2776/pizza-pull.png">
+        <hr/>
+        Име:<br/>
+        <input type="text" required name="ime"><br/>
+        Адреса:<br/>
+        <input type="text" required name="adresa"><br/>
+        Телефон за контакт:<br/>
+        <input type="text" required name="telefon"><br/>
+        Вид на пица<br/>
+        <select required name="vid na pica">
+            <option value="kapricioza">Капричиоза</option>
+            <option value="margarita">Маргарита</option>
+            <option value="peperoni">Пеперони</option>
+            <option value="kvatro formadzi">Кватро Формаџи</option>
+            <option value="kvatro stadzone">Кватро Стаџоне</option>
+            <option value="vegeterijana">Вегетеријана</option>
+            <option value="bejkon">Бејкон</option>
+            <option value="vezuvio">Везувио</option>
+        </select><br/>
+        Големина:<br/>
+        <select required name="golemina">
+            <option value="familijarna">Фамилијарна</option>
+            <option value="sredna">Средна</option>
+            <option value="mala">Мала</option>
+        </select><br/>
+        Количина:<br/>
+        <input required type="number" name="kolicina" value="1"><br/>
+        Додатоци:<br/>
+        <label>
+            <input type="checkbox" name="dodatok" value="pecurki">
+            Печурки
+        </label><br/>
+        <label>
+            <input type="checkbox" name="dodatok" value="domaten sos">
+            Доматен сос
+        </label><br/>
+        <label>
+            <input type="checkbox" name="dodatok" value="dodatok kaskaval">
+            Додаток кашкавал
+        </label><br/>
+        <label>
+            <input type="checkbox" name="dodatok" value="slanina">
+            Сланина
+        </label><br/>
+        <label>
+            <input type="checkbox" name="dodatok" value="maslinki">
+            Маслинки
+        </label><br/>
+        <label>
+            <input type="checkbox" name="dodatok" value="piperka">
+            Пиперка
+        </label><br/>
+        <label>
+            <input type="checkbox" name="dodatok" value="jajce">
+            Јајце
+        </label><br/>
+        <button type="submit">Потврди</button>
+        <button type="reset">Избриши</button>
+    </body>
+</html>
