@@ -44,3 +44,21 @@ body {
 li.yellow {
     color: red;
 }
+
+.sivo {
+    background-color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+    border: 1px solid blue;
+    width: 500px;
+    height: 500px;
+}
