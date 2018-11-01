@@ -2,36 +2,37 @@
 <html>
     <head>
         <title>Нарачка на пица</title>
+        <link rel="stylesheet" href="domasna5 - naracka na pica.css">
     </head>
     <body>
         <img src="https://www.cumberlandfarms.com/media/2776/pizza-pull.png">
         <hr/>
-        Име:<br/>
+        <span>Име:</span><br/>
         <input type="text" required name="ime"><br/>
-        Адреса:<br/>
+        <span>Адреса:</span><br/>
         <input type="text" required name="adresa"><br/>
-        Телефон за контакт:<br/>
+        <span>Телефон за контакт:</span><br/>
         <input type="text" required name="telefon"><br/>
-        Вид на пица:<br/>
+        <span>Вид на пица:</span><br/>
         <select required name="vid na pica">
-            <option value="kapricioza">Капричиоза</option>
+            <option class="black" value="kapricioza">Капричиоза</option>
             <option value="margarita">Маргарита</option>
-            <option value="peperoni">Пеперони</option>
+            <option class="black" value="peperoni">Пеперони</option>
             <option value="kvatro formadzi">Кватро Формаџи</option>
-            <option value="kvatro stadzone">Кватро Стаџоне</option>
+            <option class="black" value="kvatro stadzone">Кватро Стаџоне</option>
             <option value="vegeterijana">Вегетеријана</option>
-            <option value="bejkon">Бејкон</option>
+            <option class="black" value="bejkon">Бејкон</option>
             <option value="vezuvio">Везувио</option>
         </select><br/>
-        Големина:<br/>
+        <span>Големина:</span><br/>
         <select required name="golemina">
-            <option value="familijarna">Фамилијарна</option>
+            <option class="black" value="familijarna">Фамилијарна</option>
             <option value="sredna">Средна</option>
-            <option value="mala">Мала</option>
+            <option class="black" value="mala">Мала</option>
         </select><br/>
-        Количина:<br/>
+        <span>Количина:</span><br/>
         <input required type="number" name="kolicina" value="1"><br/>
-        Додатоци:<br/>
+        <span>Додатоци:</span><br/>
         <label>
             <input type="checkbox" name="dodatok" value="pecurki">
             Печурки
@@ -60,7 +61,7 @@
             <input type="checkbox" name="dodatok" value="jajce">
             Јајце
         </label><br/>
-        <button type="submit">Потврди</button>
-        <button type="reset">Избриши</button>
+        <button class="buttonbold" type="submit">Потврди</button>
+        <button class="buttonbold" type="reset">Избриши</button>
     </body>
 </html>
