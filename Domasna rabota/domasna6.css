@@ -1,0 +1,17 @@
+body {
+    background-color: #282828;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 400px;
+}
+
+.header-logo {
+    display: block;
+    width: 250;
+    height: 200;
+    float: left;
+    background-image: url(https://www.autogespot.us/bundles/autogespot/autogespot-3.0/images/logo.png);
+}
