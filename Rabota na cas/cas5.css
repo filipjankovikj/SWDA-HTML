@@ -21,7 +21,7 @@
 
         .cal-title {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
         }
 
             .cal-title .year {
