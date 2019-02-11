@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="range" class="range" min="10" max="100">
+    <div class="square"></div>
+    <script>
+        var range = document.querySelector('.range');
+        var square = document.querySelector('.square');
+
+        range.addEventListener('change', function() {
+            // console.log(this.value);
+            square.style.width = this.value + 'px';
+            square.style.height = this.value + 'px';
+        });
+    </script>
+</body>
+</html>

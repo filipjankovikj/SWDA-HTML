@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="weight" placeholder="Weight in KG">
+    <input type="text" class="height" placeholder="Height in CM">
+    <button class="btn">Calculate</button>
+    <h2 class="result">Your result will appear here...</h2>
+    <script>
+        var weight = document.querySelector('.weight');
+        var height = document.querySelector('.height');
+        var btn = document.querySelector('.btn');
+        var result = document.querySelector('.result');
+
+        btn.addEventListener('click', function() {
+            result.innerHTML = parseInt(weight.value) / (parseInt(height.value) * parseInt(height.value));
+        });
+    </script>
+</body>
+</html>
